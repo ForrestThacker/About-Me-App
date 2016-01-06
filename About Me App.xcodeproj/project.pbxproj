@@ -15,6 +15,10 @@
 		3376AB621C3D99AD004D57E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3376AB601C3D99AD004D57E1 /* LaunchScreen.storyboard */; };
 		3376AB6D1C3D99AD004D57E1 /* About_Me_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3376AB6C1C3D99AD004D57E1 /* About_Me_AppTests.m */; };
 		3376AB781C3D99AE004D57E1 /* About_Me_AppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3376AB771C3D99AE004D57E1 /* About_Me_AppUITests.m */; };
+		3376AB891C3D9EAE004D57E1 /* EducationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3376AB881C3D9EAE004D57E1 /* EducationViewController.swift */; };
+		3376AB8D1C3D9F2A004D57E1 /* HobbiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3376AB8C1C3D9F2A004D57E1 /* HobbiesViewController.swift */; };
+		3376AB911C3D9FA0004D57E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3376AB901C3D9FA0004D57E1 /* ViewController.swift */; };
+		3376AB941C3D9FCF004D57E1 /* FamilyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3376AB931C3D9FCF004D57E1 /* FamilyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,11 @@
 		3376AB731C3D99AE004D57E1 /* About Me AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "About Me AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3376AB771C3D99AE004D57E1 /* About_Me_AppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = About_Me_AppUITests.m; sourceTree = "<group>"; };
 		3376AB791C3D99AE004D57E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3376AB871C3D9EAD004D57E1 /* About Me App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "About Me App-Bridging-Header.h"; sourceTree = "<group>"; };
+		3376AB881C3D9EAE004D57E1 /* EducationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EducationViewController.swift; sourceTree = "<group>"; };
+		3376AB8C1C3D9F2A004D57E1 /* HobbiesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HobbiesViewController.swift; sourceTree = "<group>"; };
+		3376AB901C3D9FA0004D57E1 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3376AB931C3D9FCF004D57E1 /* FamilyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FamilyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,10 +150,15 @@
 		3376AB851C3D9B43004D57E1 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				3376AB871C3D9EAD004D57E1 /* About Me App-Bridging-Header.h */,
 				3376AB581C3D99AD004D57E1 /* ViewController.h */,
 				3376AB551C3D99AD004D57E1 /* AppDelegate.h */,
 				3376AB591C3D99AD004D57E1 /* ViewController.m */,
 				3376AB561C3D99AD004D57E1 /* AppDelegate.m */,
+				3376AB881C3D9EAE004D57E1 /* EducationViewController.swift */,
+				3376AB8C1C3D9F2A004D57E1 /* HobbiesViewController.swift */,
+				3376AB901C3D9FA0004D57E1 /* ViewController.swift */,
+				3376AB931C3D9FCF004D57E1 /* FamilyViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -286,9 +300,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3376AB941C3D9FCF004D57E1 /* FamilyViewController.swift in Sources */,
+				3376AB911C3D9FA0004D57E1 /* ViewController.swift in Sources */,
 				3376AB5A1C3D99AD004D57E1 /* ViewController.m in Sources */,
 				3376AB571C3D99AD004D57E1 /* AppDelegate.m in Sources */,
 				3376AB541C3D99AD004D57E1 /* main.m in Sources */,
+				3376AB891C3D9EAE004D57E1 /* EducationViewController.swift in Sources */,
+				3376AB8D1C3D9F2A004D57E1 /* HobbiesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,10 +447,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "About Me App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "SUROS.About-Me-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "About Me App/About Me App-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -440,10 +461,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "About Me App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "SUROS.About-Me-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "About Me App/About Me App-Bridging-Header.h";
 			};
 			name = Release;
 		};
