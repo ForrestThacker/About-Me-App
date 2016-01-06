@@ -25,15 +25,18 @@
                         <color key="backgroundColor" red="0.69719675005516291" green="0.98723466397680748" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <segue destination="6AX-f7-HV7" kind="presentation" identifier="toHobbies" id="m4O-1n-Lwn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-106" y="364"/>
+            <point key="canvasLocation" x="-250" y="364"/>
         </scene>
-        <!--My Education-->
+        <!--Education-->
         <scene sceneID="YQx-Z8-7tv">
             <objects>
-                <viewController title="My Education" id="67l-Zx-1JR" sceneMemberID="viewController">
+                <viewController title="Education" id="67l-Zx-1JR" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="nAF-fw-9dY"/>
                         <viewControllerLayoutGuide type="bottom" id="fYd-n7-YfQ"/>
@@ -50,15 +53,18 @@
                         <color key="backgroundColor" red="1" green="0.98981702157087359" blue="0.68760996513633799" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <segue destination="9Y2-Ot-lcW" kind="presentation" identifier="toFamily" id="uT0-eV-irC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gxn-rX-YBW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="332" y="1159"/>
+            <point key="canvasLocation" x="394" y="1201"/>
         </scene>
-        <!--My Hobbies-->
+        <!--Hobbies-->
         <scene sceneID="4cl-V9-R5L">
             <objects>
-                <viewController title="My Hobbies" id="6AX-f7-HV7" sceneMemberID="viewController">
+                <viewController title="Hobbies" id="6AX-f7-HV7" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Fnm-PF-7VP"/>
                         <viewControllerLayoutGuide type="bottom" id="dcU-vX-ol1"/>
@@ -75,15 +81,18 @@
                         <color key="backgroundColor" red="0.768560824849989" green="1" blue="0.51191031804999232" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <segue destination="67l-Zx-1JR" kind="presentation" identifier="toEducation" id="sds-Vl-D1b"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TsJ-LG-P34" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="332" y="364"/>
+            <point key="canvasLocation" x="394" y="364"/>
         </scene>
-        <!--My Family-->
+        <!--Family-->
         <scene sceneID="wBU-4j-pir">
             <objects>
-                <viewController title="My Family" id="9Y2-Ot-lcW" sceneMemberID="viewController">
+                <viewController title="Family" id="9Y2-Ot-lcW" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="iHJ-gO-ZIb"/>
                         <viewControllerLayoutGuide type="bottom" id="URL-SA-lYL"/>
@@ -100,10 +109,13 @@
                         <color key="backgroundColor" red="1" green="0.79004425269532663" blue="0.79986447875245681" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="presentation" identifier="toHome" id="YRC-XB-65W"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RAh-ZF-BpY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-106" y="1159"/>
+            <point key="canvasLocation" x="-250" y="1201"/>
         </scene>
     </scenes>
 </document>
