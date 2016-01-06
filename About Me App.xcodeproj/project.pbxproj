@@ -101,10 +101,8 @@
 		3376AB511C3D99AD004D57E1 /* About Me App */ = {
 			isa = PBXGroup;
 			children = (
-				3376AB551C3D99AD004D57E1 /* AppDelegate.h */,
-				3376AB561C3D99AD004D57E1 /* AppDelegate.m */,
-				3376AB581C3D99AD004D57E1 /* ViewController.h */,
-				3376AB591C3D99AD004D57E1 /* ViewController.m */,
+				3376AB861C3D9B63004D57E1 /* View */,
+				3376AB851C3D9B43004D57E1 /* Controller */,
 				3376AB5B1C3D99AD004D57E1 /* Main.storyboard */,
 				3376AB5E1C3D99AD004D57E1 /* Assets.xcassets */,
 				3376AB601C3D99AD004D57E1 /* LaunchScreen.storyboard */,
@@ -138,6 +136,24 @@
 				3376AB791C3D99AE004D57E1 /* Info.plist */,
 			);
 			path = "About Me AppUITests";
+			sourceTree = "<group>";
+		};
+		3376AB851C3D9B43004D57E1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3376AB581C3D99AD004D57E1 /* ViewController.h */,
+				3376AB551C3D99AD004D57E1 /* AppDelegate.h */,
+				3376AB591C3D99AD004D57E1 /* ViewController.m */,
+				3376AB561C3D99AD004D57E1 /* AppDelegate.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		3376AB861C3D9B63004D57E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

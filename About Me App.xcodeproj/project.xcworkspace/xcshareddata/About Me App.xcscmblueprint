@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2570E2DD80E9BB92022BFA3DBF0E8684C1CB160A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "2570E2DD80E9BB92022BFA3DBF0E8684C1CB160A" : 0,
+    "5F9ECC59827196513873AAE8C97A22C064258E6B" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "DA1187AA-8335-4F18-8004-E5F8D36ACB93",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "2570E2DD80E9BB92022BFA3DBF0E8684C1CB160A" : "About%20Me%20App\/",
+    "5F9ECC59827196513873AAE8C97A22C064258E6B" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "About Me App",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "About Me App.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ForrestThacker\/About-Me-App.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2570E2DD80E9BB92022BFA3DBF0E8684C1CB160A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ForrestThacker\/Intro-to-Shat.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5F9ECC59827196513873AAE8C97A22C064258E6B"
+    }
+  ]
+}
